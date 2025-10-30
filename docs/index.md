@@ -17,33 +17,11 @@
 </div>
 
 <style>
-  /* center the block and let it span the full page width (cap optional) */
-  .slide-embed {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;   /* optional: remove if you want truly edge-to-edge */
-    margin: 0 auto;      /* centers the container */
-  }
-
-  /* responsive 16:9 ratio using the padding-top hack */
-  .slide-embed::before {
-    content: "";
-    display: block;
-    padding-top: 56.25%; /* 9/16 = 0.5625 */
-  }
-
-  /* make the iframe fill the container */
-  .slide-embed iframe {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-  }
-
-  /* optional: cap height on very tall screens */
-  @media (min-height: 700px) {
-    .slide-embed { max-height: 85vh; }
-    .slide-embed iframe { height: 100%; }
-  }
+  .slide-embed{position:relative;width:100%;max-width:1200px;margin:0 auto}
+  .slide-embed::before{content:"";display:block;padding-top:56.25%}
+  .slide-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .slide-actions{max-width:1200px;margin:0.75rem auto 0; text-align:center}
+  .download-btn{display:inline-block;padding:.6rem 1rem;border:1px solid #ccc;
+    border-radius:.75rem;text-decoration:none}
 </style>
+
