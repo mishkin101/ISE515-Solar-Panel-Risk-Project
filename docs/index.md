@@ -6,6 +6,16 @@
   ></iframe>
 </div>
 
+
+<div class="slide-actions">
+  <a class="download-btn"
+     href="https://raw.githubusercontent.com/mishkin101/ISE515-Solar-Panel-Risk-Project/main/USC_Solar_Panel_Final_Report.pdf"
+     "
+     target="_blank" rel="noopener">
+    ⬇️ Download the slides (PPTX)
+  </a>
+</div>
+
 <style>
   /* center the block and let it span the full page width (cap optional) */
   .slide-embed {
